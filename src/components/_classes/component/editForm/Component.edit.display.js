@@ -5,7 +5,7 @@ export default [
     type: 'textfield',
     input: true,
     key: 'label',
-    label: 'Label',
+    label: 'Question',
     placeholder: 'Field Label',
     tooltip: 'The label for this field that will appear next to it.',
     validate: {
@@ -20,7 +20,7 @@ export default [
     label: 'Label Position',
     tooltip: 'Position for the label for this field.',
     weight: 20,
-    defaultValue: 'top',
+    defaultValue: 'left-left',
     dataSrc: 'values',
     data: {
       values: [
